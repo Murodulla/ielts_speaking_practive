@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:ielts_speaking_practive/view_models/section_one_view_model.dart';
-import 'package:ielts_speaking_practive/view_models/section_three_view_model.dart';
-import 'package:ielts_speaking_practive/view_models/section_two_view_model.dart';
-import 'package:ielts_speaking_practive/views/section_one/section_one_view.dart';
-import 'package:ielts_speaking_practive/views/section_three/section_three_view.dart';
-import 'package:ielts_speaking_practive/views/section_two/section_two_view.dart';
 import 'package:provider/provider.dart';
+
+import '../view_models/section_one_view_model.dart';
+import '../view_models/section_three_view_model.dart';
+import '../view_models/section_two_view_model.dart';
+import 'section_one/section_one_view.dart';
+import 'section_three/section_three_view.dart';
+import 'section_two/section_two_view.dart';
 
 class DashboardView extends StatefulWidget {
   const DashboardView({super.key});

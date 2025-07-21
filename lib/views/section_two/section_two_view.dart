@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ielts_speaking_practive/view_models/section_two_view_model.dart';
-import 'package:ielts_speaking_practive/views/section_two/section_two_answer_view.dart';
 import 'package:provider/provider.dart';
+
+import '../../view_models/section_two_view_model.dart';
+import 'section_two_answer_view.dart';
 
 class SectionTwoView extends StatefulWidget {
   const SectionTwoView({super.key});

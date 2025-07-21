@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:ielts_speaking_practive/models/section_two.dart';
-import 'package:ielts_speaking_practive/utils/simple_html_formatter.dart';
-import 'package:ielts_speaking_practive/widgets/list_item_widget.dart';
-import 'package:ielts_speaking_practive/widgets/title_widget.dart';
+
+import '../../models/section_two.dart';
+import '../../utils/simple_html_formatter.dart';
+import '../../widgets/list_item_widget.dart';
+import '../../widgets/title_widget.dart';
 
 class SectionTwoAnswerView extends StatefulWidget {
   final SectionTwo item;

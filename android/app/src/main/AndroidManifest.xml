@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="ielts_speaking_practive"
+        android:label="IELTS Speaking Practive"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

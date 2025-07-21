@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:ielts_speaking_practive/models/section_two.dart';
 
+import '../models/section_two.dart';
 import '../utils/helpers.dart';
 
 class SectionTwoViewModel extends ChangeNotifier {

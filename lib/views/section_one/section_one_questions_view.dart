@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ielts_speaking_practive/models/section_one.dart';
-import 'package:ielts_speaking_practive/views/section_one/section_one_answer_view.dart';
+
+import '../../models/section_one.dart';
+import 'section_one_answer_view.dart';
 
 class SectionOneQuestionsView extends StatefulWidget {
   final SectionOne item;

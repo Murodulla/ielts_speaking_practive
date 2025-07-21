@@ -1,4 +1,4 @@
-package com.galaxyeducationschool.niners.ielts_speaking_practive
+package uz.mybukhara.mobiles
 
 import io.flutter.embedding.android.FlutterActivity
 
