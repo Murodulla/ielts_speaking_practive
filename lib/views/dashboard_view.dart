@@ -38,10 +38,20 @@ class _DashboardViewState extends State<DashboardView> {
                   ),
                 );
               },
-              title: const DashboardButtonWidget(
-                color: Colors.purpleAccent,
-                title: "Part 1",
+              leading: const Icon(
+                Icons.mic,
+                size: 40,
+                color: Colors.white,
               ),
+              title: const Text(
+                "Part 1",
+                style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.white,
+                ),
+              ),
+              tileColor: Colors.purpleAccent,
+              contentPadding: const EdgeInsets.all(40),
             ),
             const Spacer(),
             ListTile(
@@ -52,10 +62,20 @@ class _DashboardViewState extends State<DashboardView> {
                   ),
                 );
               },
-              title: const DashboardButtonWidget(
-                color: Colors.pinkAccent,
-                title: "Part 2",
+              leading: const Icon(
+                Icons.mic,
+                size: 40,
+                color: Colors.white,
               ),
+              title: const Text(
+                "Part 2",
+                style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.white,
+                ),
+              ),
+              tileColor: Colors.pinkAccent,
+              contentPadding: const EdgeInsets.all(40),
             ),
             const Spacer(),
             ListTile(
@@ -66,10 +86,20 @@ class _DashboardViewState extends State<DashboardView> {
                   ),
                 );
               },
-              title: const DashboardButtonWidget(
-                color: Colors.blueAccent,
-                title: "Part 3",
+              leading: const Icon(
+                Icons.mic,
+                size: 40,
+                color: Colors.white,
               ),
+              title: const Text(
+                "Part 3",
+                style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.white,
+                ),
+              ),
+              tileColor: Colors.blueAccent,
+              contentPadding: const EdgeInsets.all(40),
             ),
             const Spacer(),
           ],
